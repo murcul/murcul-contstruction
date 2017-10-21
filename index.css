@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Inconsolata');
+
+body, html {
+  background: #0465E7; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    3.23deg,
+    #1babda 2.17%,
+    #3785ed 55.54%,
+    #0465e7 89.32%
+  );
+  background: -o-linear-gradient(
+    3.23deg,
+    #1babda 2.17%,
+    #3785ed 55.54%,
+    #0465e7 89.32%
+  );
+  background: -moz-linear-gradient(
+    3.23deg,
+    #1babda 2.17%,
+    #3785ed 55.54%,
+    #0465e7 89.32%
+  );
+  background: linear-gradient(
+    3.23deg,
+    #1babda 2.17%,
+    #3785ed 55.54%,
+    #0465e7 89.32%
+  );
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  font-family: Dosis;
+  font-size: 4em;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: white;
+  font-family: Dosis;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+  padding: 0;
+}
+
+p {
+  color: white;
+  font-family: Inconsolata;
+  font-size: 1.3em;
+  font-weight: 300;
+  text-align: center;
+  position: absolute;
+  bottom: 10;
+}
+
+.logo {
+  margin-bottom: 20px;
+  width: 120px;
+  height: 120px;
+}
+
+#mail {
+  fill: white;
+}
