@@ -71,6 +71,10 @@ p {
   bottom: 10;
 }
 
+a {
+  color: white;
+}
+
 .logo {
   margin-bottom: 20px;
   width: 120px;
